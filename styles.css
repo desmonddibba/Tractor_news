@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+/* font-family: 'David Libre', serif;
+font-family: 'Quicksand', sans-serif; */
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    font-family: 'David Libre', serif;
+    height: 100%;
+    margin: 0;
+}
+
+#border-box {
+    display: flex;
+    flex-direction: column;
+    padding: 1vw;
+    width: 54vw;
+    height: 100%;
+    margin-top: 2vh;
+    border: 1px solid black;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    font-size: large;
+}
+
+header > h1{
+    text-align: left;
+    font-size: 222%
+}
+
+main {
+    display: flex;
+    flex: 1;
+    margin-bottom: 2%;
+
+}
+
+section {
+    flex: 1;
+}
+
+section > header{
+    text-align: left;
+    font-size: 100%;
+    font-weight: normal;
+}
+
+#article-box{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    height: 54vh;
+    width: 35vw;
+    margin-top: 2vh;
+
+}
+
+article {
+    flex: 1;
+
+}
+
+article > p{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100%;
+    line-height: 1.6;
+    max-width: 30ch;
+    margin-top: 0;
+}
+
+#cursive-text{
+    font-style: italic;
+    max-width: 23ch;
+}
+#cursive-text::first-letter{
+    initial-letter: 2;
+}
+
+aside {
+    display: flex;
+    justify-content: center;
+    flex: 0 0 30%; 
+
+}
+
+figure{
+    margin: 0;
+    margin-right: 2vw;
+    margin-top: 2vh;
+    width: 100%;
+}
+
+figcaption{
+    font-family: 'David Libre', serif;
+    font-weight: bolder;
+    font-size: 130%;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 7%;
+}
